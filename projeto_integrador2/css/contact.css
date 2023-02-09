@@ -1,0 +1,142 @@
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form input,textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: .7rem;
+    font-size: 1rem;
+}
+
+button {
+    border: 0;
+    border: 1px solid rgb(161, 161, 161);
+    border-radius: 3px;
+    background-color: #1f1f1f;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover {
+    border: 1px solid #1f1f1f;
+    background-color: #fff;
+    color: #1f1f1f;
+    transition: .2s;
+    font-weight: bold;
+}
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    button {
+        margin-top: 3px;
+        width: 100px;
+        padding: .5rem;
+        font-size: .9rem;
+    }
+
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    button {
+        margin-top: 3px;
+        width: 100px;
+        padding: .5rem;
+        font-size: .9rem;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .text-info h4 {
+        font-size: 1.2rem;
+    }
+
+    button {
+        margin-top: 3px;
+        width: 100px;
+        padding: .7rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width:1200px) {
+    .container-info {
+        display: flex;
+        align-items: center;
+        margin-top: 200px;
+    }
+
+    .nav {
+        height: 50px;
+    }
+
+    
+    .text-info h4 {
+        font-size: 1.2rem;
+    }
+
+    .img-info {
+        width:50%;
+        margin: 0 auto;
+    }
+
+    .img-info img {
+        width: 100%;
+    }
+
+    .text-info {
+        width: 50%;
+    }
+
+    .text-info form{
+        font-size: .8rem;
+    }
+
+    button {
+        margin-top: 3px;
+        width: 100px;
+        padding: .7rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:1201px) {
+    .container-info {
+        display: flex;
+        align-items: center;
+        margin-top: 200px;
+    }
+
+    
+    .text-info h4 {
+        font-size: 1.2rem;
+    }
+
+    .img-info {
+        width:50%;
+        margin: 0 auto;
+    }
+
+    .img-info img {
+        width: 100%;
+    }
+
+    .text-info {
+        width: 50%;
+    }
+
+    .text-info form{
+        font-size: .8rem;
+    }
+
+    button {
+        margin-top: 3px;
+        width: 100px;
+        padding: .7rem;
+        font-size: 1rem;
+    }
+}

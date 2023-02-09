@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif; 
+}
+
+button,.home {
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container-main {
+    width: 80%;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    width: 100%;
+    background-color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.menuzao {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home {
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu ul {
+    display: flex;
+    cursor: pointer;
+}
+
+.menu ul li{
+    display: flex;
+}
+
+#text {
+    color: rgb(119, 119, 119);
+    text-align: center;
+}
+
+#text span {
+    color: red;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.result {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+#clean {
+    margin-top: 10px;
+}
+
+#confira {
+    width: 100%;
+    text-align: center;
+}
+
+.table-imc {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .container-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        border-bottom: 4px solid orangered;
+        height: 50px;
+    }
+
+    .menu {
+        width: 160px;
+    }
+
+    .menu ul li {
+        margin-right: 15px;
+    }
+
+
+    #text {
+        margin-top: 3px;
+        font-size: .8rem;
+        margin-bottom: 20px;
+    }
+
+    form {
+        width: 70%;
+    }
+
+    form input, button {
+        margin-bottom: 5px;
+        padding: .4rem;
+    }
+
+    .result {
+        width: 100%;
+        margin-top: 30px;
+        border-bottom: 1px solid rgb(185, 184, 184);
+        padding-bottom: 2px;
+    }
+    
+    .result span {
+        font-weight: bold;
+    }
+
+    #confira {
+        margin-top: 60px;
+        font-weight: bold;
+        font-size: .9rem;
+    }
+
+    .table-imc img {
+        width: 100%;
+    }
+   
+}
+
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .container-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        border-bottom: 4px solid orangered;
+        height: 50px;
+    }
+
+    .menu {
+        width: 160px;
+    }
+
+    .menu ul li {
+        margin-right: 15px;
+    }
+
+    #text {
+        margin-top: 3px;
+        font-size: .8rem;
+        margin-bottom: 20px;
+    }
+
+    form {
+        width: 50%;
+    }
+
+    form input, button {
+        margin-bottom: 5px;
+        padding: .4rem;
+    }
+
+    .result {
+        width: 100%;
+        margin-top: 30px;
+        border-bottom: 1px solid rgb(185, 184, 184);
+        padding-bottom: 2px;
+    }
+    
+    .result span {
+        font-weight: bold;
+    }
+
+    #confira {
+        margin-top: 60px;
+        font-weight: bold;
+        font-size: .9rem;
+    }
+  
+    .table-imc img {
+        width: 85%;
+    }
+}
+
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .container-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        border-bottom: 4px solid orangered;
+        height: 50px;
+        font-size: 1.3rem;
+    }
+
+    .menu {
+        width: 160px;
+    }
+
+    .menu ul li {
+        margin-right: 15px;
+    }
+
+    #text {
+        margin-top: 3px;
+        font-size: .8rem;
+        margin-bottom: 20px;
+    }
+
+    form {
+        width: 40%;
+    }
+
+    form input, button {
+        margin-bottom: 5px;
+        padding: .4rem;
+    }
+
+    .result {
+        width: 100%;
+        margin-top: 30px;
+        border-bottom: 1px solid rgb(185, 184, 184);
+        padding-bottom: 2px;
+    }
+    
+    .result span {
+        font-weight: bold;
+    }
+
+    #confira {
+        margin-top: 60px;
+        font-weight: bold;
+        font-size: .9rem;
+    }
+
+    .table-imc img {
+        width: 70%;
+    }
+}
+
+
+@media screen and (min-width:1025px) and (max-width:1200px) {
+    .container-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        border-bottom: 4px solid orangered;
+        height: 30px;
+    }
+
+    .nav {
+        border-bottom: 4px solid orangered;
+        height: 50px;
+        font-size: 1.3rem;
+    }
+
+    .menu {
+        width: 160px;
+    }
+
+    .menu ul li {
+        margin-right: 15px;
+    }
+
+    #text {
+        margin-top: 3px;
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    form {
+        width: 30%;
+    }
+
+    form input, button {
+        margin-bottom: 5px;
+        padding: .4rem;
+        font-size: 1rem;
+    }
+
+    .result {
+        width: 100%;
+        margin-top: 30px;
+        border-bottom: 1px solid rgb(185, 184, 184);
+        padding-bottom: 2px;
+        font-size: 1.2rem;
+    }
+    
+    .result span {
+        font-weight: bold;
+    }
+
+    #confira {
+        margin-top: 60px;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .table-imc img {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .container-main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        border-bottom: 4px solid orangered;
+        height: 30px;
+    }
+
+    .nav {
+        border-bottom: 4px solid orangered;
+        height: 50px;
+        font-size: 1.3rem;
+    }
+
+    .menu {
+        width: 160px;
+    }
+
+    .menu ul li {
+        margin-right: 15px;
+    }
+
+    #text {
+        margin-top: 3px;
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    form {
+        width: 30%;
+    }
+
+    form input, button {
+        margin-bottom: 5px;
+        padding: .4rem;
+        font-size: 1rem;
+    }
+
+    .result {
+        width: 100%;
+        margin-top: 30px;
+        border-bottom: 1px solid rgb(185, 184, 184);
+        padding-bottom: 2px;
+        font-size: 1.2rem;
+    }
+    
+    .result span {
+        font-weight: bold;
+    }
+
+    #confira {
+        margin-top: 60px;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+
+    .table-imc img {
+        width: 60%;
+    }
+}

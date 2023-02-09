@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcule seu IMC</title>
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <link rel="shortcut icon" href="img/icon1.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="js/main.js" defer></script>
+
+</head>
+<body>
+    <div class="nav">
+        <div class="menuzao">
+            <div class="home">
+                <a href="C:\Users\56127512022.1\Downloads\projeto_integrador2\index.html"><i class="fa-solid fa-house"></i></a>      
+            </div>
+            <div class="menu">
+                <ul>
+                    <a href="C:\Users\56127512022.1\Downloads\projeto_integrador2\info-imc.html"><li>imc</li></a>
+                    <a href="C:\Users\56127512022.1\Downloads\projeto_integrador2\about.html"><li>sobre</li></a> 
+                    <a href="C:\Users\56127512022.1\Downloads\projeto_integrador2\contact.html"><li>contato</li></a>  
+                </ul>
+            </div>
+        </div>  
+    </div>
+    <div class="container-main">
+        <h2>Calcule seu IMC</h2>
+        <p id="text"><span>Importante:</span> siga os exemplos e use pontos como separadores.</p>
+        <form>
+            <input type="text" id="altura" placeholder="Sua altura (1.80)" required>
+            <input type="text" id="peso" placeholder="Seu peso (78.9)" required>
+            <button type="button"  id="btn">Calcular</button>
+
+            <div class="result">
+                <p>Seu IMC : <span id="result-imc"></span></p>
+                <button id="clean" type="button" class="hide">Limpar</button>
+            </div>
+
+            <p id="confira" class="hide">
+                Confira a tabela de classificação
+                <i class="fa-solid fa-angles-down"></i>
+            </p>
+        </form>   
+    </div>
+
+   <div class="table-imc hide">
+    <img src="img/tabela2.gif" alt="tabela classificacao">
+   </div>
+</body>
+</html>

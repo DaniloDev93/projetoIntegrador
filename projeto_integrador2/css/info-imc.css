@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif; 
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.home {
+    cursor: pointer;
+}
+
+.nav {
+    width: 100%;
+    background-color: #1f1f1f;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    border-bottom: 4px solid orangered;
+}
+
+ul {
+    list-style: none;
+}
+
+.menuzao {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    display: flex;
+    width: 160px;
+}
+
+.menu ul {
+    display: flex;
+    cursor: pointer;
+}
+
+.menu ul li{
+    display: flex;
+    margin-right: 15px;
+}
+
+.container-info {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.img-info {
+    width: 100%;
+}
+
+.img-info img {
+    width: 100%;
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .nav {
+        height: 50px;
+    }
+    .text-info {
+        margin-top: 20px;
+    }
+
+    .text-info h4 {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+    .nav {
+        height: 50px;
+    }
+
+    .text-info {
+        margin-top: 20px;
+    }
+
+    .text-info h4 {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width:769px) and (max-width:1024px) {
+    .nav {
+        height: 60px;
+        font-size: 1.2rem;
+    }
+    .text-info {
+        margin-top: 20px;
+    }
+
+    .text-info h4 {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width:1025px) and (max-width:1200px) {
+    .container-info {
+        display: flex;
+        align-items: center;
+        margin-top: 200px;
+    }
+    .menu ul li {
+        margin-right: 15px;
+    }
+
+    
+    .text-info h4 {
+        font-size: 1.2rem;
+    }
+
+    .img-info {
+        width:50%;
+        margin: 0 auto;
+    }
+
+    .img-info img {
+        width: 100%;
+    }
+
+    .text-info {
+        width: 50%;
+    }
+
+    .text-info form{
+        font-size: .8rem;
+    }
+
+    button {
+        margin-top: 3px;
+        width: 100px;
+        padding: .7rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width:1201px) {
+    .container-info {
+        display: flex;
+        align-items: center;
+        margin-top: 200px;
+    }
+
+    .nav {
+        height: 60px;
+        font-size: 1.2rem;
+    }
+    .text-info h4 {
+        font-size: 1.2rem;
+    }
+
+    .img-info {
+        width:50%;
+        margin: 0 auto;
+    }
+
+    .img-info img {
+        width: 100%;
+    }
+
+    .text-info {
+        width: 50%;
+    }
+
+    .text-info form{
+        font-size: .8rem;
+    }
+
+    button {
+        margin-top: 3px;
+        width: 100px;
+        padding: .7rem;
+        font-size: 1rem;
+    }
+}
